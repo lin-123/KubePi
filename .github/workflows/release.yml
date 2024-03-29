@@ -2,8 +2,10 @@ name: Build Image
 
 on:
   push:
-    branches:
-    - nologo
+    tags:
+      - v**
+    # branches:
+    # - nologo
 env:
   DOCKERHUB_REPO: kubepi-1panel-nologo
   # DOCKERHUB_REPO: 1panel/kubepi
