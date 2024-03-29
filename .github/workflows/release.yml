@@ -6,7 +6,8 @@ on:
       - v*
 
 env:
-  DOCKERHUB_REPO: 1panel/kubepi
+  DOCKERHUB_REPO: kubepi-1panel-nologo
+  # DOCKERHUB_REPO: 1panel/kubepi
 
 jobs:
   docker:
