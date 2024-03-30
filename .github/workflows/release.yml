@@ -7,7 +7,7 @@ on:
     # branches:
     # - nologo
 env:
-  DOCKERHUB_REPO: kubepi-1panel-nologo
+  DOCKERHUB_REPO: kakak/kubepi-nologo
   # DOCKERHUB_REPO: 1panel/kubepi
 
 jobs:
